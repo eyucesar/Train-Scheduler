@@ -1,0 +1,99 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	font-family: Arial;
+	font-size: 16px;
+}
+
+.jumbotron {
+	width: 80%;
+	text-align: center;
+	font-family: "Droid Sans", sans-serif, Arial;
+	color: white;
+	background-color: #AA0000;
+	font-weight: bold;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+
+.panel.panel-default {
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	padding-bottom: 8px;
+}
+
+th {
+	font-weight: bold;
+}
+
+.table {
+	margin: 0 auto;
+	width: 97%;
+}
+
+.panel-title {
+	font-size: 18px;
+}
+
+.panel-default>.panel-heading {
+	background-color: #AA0000;
+	color: white;
+	font-size: 18px;
+}
+
+.panel-default>.panel-heading, .panel.panel-default {
+	border: 1px solid #AA0000;
+}
+
+label {
+	font-size: 16px;
+}
+
+input {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+footer {
+	text-align: center;
+	font-size: 12px;
+}
+
+#submit {
+	background-color: #AA0000;
+	border: 1px solid #AA0000;
+	color: white;
+	font-size: 18px;
+}
+
+#removeTrain {
+	background-color: #AA0000;
+	border: 1px solid #AA0000;
+	color: white;
+	font-size: 12px;
+	display: block;
+	margin: auto;
+}
+
+#removeTrain:hover, #removeTrain:focus {
+	background-color: black;
+	border: 1px solid black;
+	outline: 0;
+}
+
+#submit:hover, #submit:focus {
+	background-color: black;
+	border: 1px solid black;
+	outline: 0;
+}
+
+.form-control:focus {
+	border: 1px solid #AA0000;
+	-webkit-box-shadow: none;
+    outline: -webkit-focus-ring-color auto 0px;
+}
